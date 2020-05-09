@@ -1,0 +1,9 @@
+main: "be.jonasclaes.openlogging.client.minecraft.OpenLoggingClientMinecraft"
+version: "1.0"
+api-version: "1.15"
+author: "Jonas Claes <jonasclaes2001@outlook.com>"
+name: "OpenLogging-Minecraft-Client"
+commands:
+  reload-olcm:
+    description: Reload the config
+    usage: /reload-olcm

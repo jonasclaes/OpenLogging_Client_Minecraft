@@ -1,0 +1,17 @@
+main:
+  enable-logging: true
+  enable-event-logging: true
+  endpoint: "localhost"
+  id: "null"
+events:
+  PLUGIN_ENABLE: true
+  PLUGIN_DISABLE: true
+  PLAYER_JOIN: true
+  PLAYER_QUIT: true
+  PLAYER_CHAT: true
+  BLOCK_BREAK: true
+  BLOCK_PLACE: true
+reporting:
+  player:
+    enable: true
+    wait: 10000
